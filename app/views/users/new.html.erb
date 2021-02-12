@@ -1,0 +1,24 @@
+<!--form action="/users" method="post" accept-charset="UTF-8" >
+  <label for="username">username</label>
+  <input id="username" name="user[username]" type="text" required />
+  <label for="email">email</label>
+  <input id="email" name="user[email]" type="email" required />
+  <label for="password">password</label>
+  <input id="password" name="user[password]" type="password" required />
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input name="submit" type="submit" value="Submit" />
+</form-->
+
+<!--<%= form_tag("/users", method: "post") do %>
+  <%= label_tag(:q, "Username:") %>
+  <%= text_field_tag(:username) %>
+  <%= label_tag(:q, "Email:") %>
+  <%= email_field_tag(:email) %>
+  <%= label_tag(:q, "Password:") %>
+  <%= password_field_tag(:password) %>
+  <%= submit_tag("Submit") %>
+<% end %>-->
+
+<%= form_with model: @user do |form| %>
+<%= render(:partial => 'form', :locals => {:form => form})%>
+<% end %>

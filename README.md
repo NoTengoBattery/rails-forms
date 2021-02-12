@@ -1,4 +1,4 @@
-# Micro-Reddit-Rails
+# Form-Using-Rails
 
 Built form to store and edit users from database using Ruby on Rails.
 

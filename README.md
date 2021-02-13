@@ -17,12 +17,14 @@ In this project we:
 
 ## Usage
 
-- Clone the repo "https://github.com/ammarkandel/Micro-Reddit-Rails.git"
+- Clone the repo "https://github.com/ammarkandel/Micro-Reddit-Rails.git".
+- Write "rails db:migrate".
+- Write "bundle install".
 - Write "rails s".
-- Change the page URL to be 'http://localhost:3000/users/new'
-- Use form to add users
-- Change the page URL to be 'http://localhost:3000/users/1/edit'
-- You can change the number 1 in the URL to be whatever user id you want to edit
+- Change the page URL to be 'http://localhost:3000/users/new'.
+- Use form to add users.
+- Change the page URL to be 'http://localhost:3000/users/1/edit'.
+- You can change the number 1 in the URL to be whatever user id you want to edit.
 
 ## Technologies
 
